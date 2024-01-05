@@ -5,7 +5,7 @@ main.addEventListener("mousemove",function(e){
     cursor.style.left = e.x+'px'
     cursor.style.top = e.y+'px'
 })
-h1.addEventListener("mousemove",function(){
+h1.addEventListener("mouseenter",function(){
     cursor.style.width ="100px"
     cursor.style.height ="100px"
 })
